@@ -17,6 +17,6 @@ jobs:
           lrc_server: 'https://loadrunner-cloud.saas.microfocus.com'
           lrc_tenant: '826316214'
           lrc_project: '5'
-          lrc_test_id: '163'
+          lrc_test_id: '41'
           lrc_output_dir: './lrc_reports'
           lrc_report_types: 'pdf'
