@@ -1,0 +1,18 @@
+            - name: LoadRunner Cloud
+  # You may pin to the exact commit or the version.
+  # uses: MicroFocus/lrc-gh-action@1a37abb618e962fc36fb5172ef3ff10b9863b3d8
+  uses: MicroFocus/lrc-gh-action@v1.0.11
+  with:
+    # LRC URL
+    lrc_server: # default is https://loadrunner-cloud.saas.microfocus.com
+    # Tenant ID
+    lrc_tenant: 
+    # Project ID
+    lrc_project: # default is 1
+    # Test ID
+    lrc_test_id: # optional
+    # The directory to save results
+    lrc_output_dir: # optional, default is ./
+    # Target report types. For example: pdf, docx, csv
+    lrc_report_types: # optional, default is 
+          
