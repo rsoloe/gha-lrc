@@ -4,7 +4,7 @@ on:
       - master
 jobs:
   load_test:
-    runs-on: self-hosted
+    runs-on: GitHub-hosted
     name: Start a load test
     steps:
       - name: Run test in LoadRunner Cloud
@@ -18,3 +18,5 @@ jobs:
           lrc_tenant: '826316214'
           lrc_project: '5'
           lrc_test_id: '163'
+          lrc_output_dir: './lrc_reports'
+          lrc_report_types: 'pdf'
