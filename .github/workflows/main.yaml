@@ -4,7 +4,7 @@ on:
       - master
 jobs:
   load_test:
-    runs-on: GitHub-hosted
+    runs-on: ubuntu-latest
     name: Start a load test
     steps:
       - name: Run test in LoadRunner Cloud
